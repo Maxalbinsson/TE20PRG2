@@ -12,8 +12,8 @@ public class Kryptering {
     }
 
 
-    public static void{
-
-
     }
-}
+
+
+
+
