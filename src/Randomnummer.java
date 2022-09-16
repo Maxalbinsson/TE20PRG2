@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class Randomnummer {
-    public static void main (String[]args){
+    public static void main(String[]args){
         Random rand = new Random();
         int upperbound =25;
 
@@ -13,17 +13,10 @@ public class Randomnummer {
         System.out.println();
     }
 
-    try{
-
-
-    }
 
     int x;
     Random r = new Random();
 
-for (int i = 0 ; i < 1920*1080 ; i++) {
-        x = r.nextInt(0xffffff);
-        // Do stuff here...
 
     }
-}
+

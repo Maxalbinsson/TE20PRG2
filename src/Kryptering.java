@@ -1,4 +1,6 @@
 public class Kryptering {
+    public int[] cipher;
+
     public static void main(String[]args){
 
         int a = 123;
@@ -12,7 +14,15 @@ public class Kryptering {
     }
 
 
+    public void setKey(String s) {
     }
+
+    public void setMessage(String s) {
+    }
+
+    public void setkryptering() {
+    }
+}
 
 
 

@@ -9,14 +9,8 @@ import java.*;
 
 
     public class filhantering {
-    public static void(String[]args){
-        BufferedReader inFile = openTextFileForReading (fileName"info.txt");
-        ArrayList<String> fileContent = readAllText(inFile);
-        DataOutputStream outFile = openBinaryFileForWriting("info.dat");
-            writeTextAsBinary(fileContent);{
-
+    public static void main(String[]args){
+        Object fileName;
         }
 
-
-    }
 }
