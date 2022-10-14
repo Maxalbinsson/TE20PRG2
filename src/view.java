@@ -3,28 +3,28 @@ import java.awt.event.ActionListener;
 
 
     public class view{
+
+
+
+
     public class CalculatorView extends JFrame{
 
-        private final JTextField FirstNumber = new JTextField(10);
-        private final JTextField SecondNumber = new JTextField(10);
-        private final JLabel AdditionLabel = new JLabel("+");
-        private final JButton calculateButton = new JButton("Beräkna");
-        private final JLabel EqualsLabel = new JLabel("=");
-        private final JLabel svar = new JLabel("svar");
-
+        private final JTextField Message = new JTextField(10);
+        private final JTextField Key = new JTextField(10);
+        private final JButton calculateButton = new JButton("cryptera");
+        private final JLabel CryptT = new JLabel("crypterad kod");
 
 
         CalculatorView() {
             JPanel calcPanel = new JPanel();
             this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             this.setSize(800,600);
-            calcPanel.add(FirstNumber);
-            calcPanel.add(SecondNumber);
-            calcPanel.add(AdditionLabel);
-            calcPanel.add(EqualsLabel);
+            calcPanel.add(Message);
+            calcPanel.add(Key);
             calcPanel.add(calculateButton);
-            calcPanel.add(svar);
+            calcPanel.add(CryptT);
             this.add(calcPanel);
+
         }
 
         public void setCalcSolution(int calcSolution) {

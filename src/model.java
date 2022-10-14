@@ -37,7 +37,7 @@ public class model {
         return B^S;
     }
 
-    public static void  main(String[] args) {
+    public void  main(String[] args) {
         String B = "banan";
         String S = "skor";
 
