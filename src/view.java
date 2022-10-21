@@ -7,22 +7,21 @@ import java.awt.event.ActionListener;
 
 
 
-    public class CalculatorView extends JFrame{
+    public static class View extends JFrame{
 
         private final JTextField Message = new JTextField(10);
         private final JTextField Key = new JTextField(10);
         private final JButton calculateButton = new JButton("cryptera");
-        private final JLabel CryptT = new JLabel("crypterad kod");
+        private final JLabel CryptF = new JLabel("crypterad fil");
 
-
-        CalculatorView() {
+            View() {
             JPanel calcPanel = new JPanel();
             this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             this.setSize(800,600);
             calcPanel.add(Message);
             calcPanel.add(Key);
             calcPanel.add(calculateButton);
-            calcPanel.add(CryptT);
+            calcPanel.add(CryptF);
             this.add(calcPanel);
 
         }

@@ -16,7 +16,7 @@ public class model {
     }
 
     public String cryptString(String message, String Key){
-        String result = "";
+        String result =  "";
         while (Key.length() < message.length()) {
             Key = expandKey(Key);
         }
@@ -25,7 +25,7 @@ public class model {
         for (int i = 0 ; 1 <message.length() ; i++) {
             result += (char)crypt(message.charAt(i), Key.charAt(i));
         }
-        return result;
+        crypt=result;
     }
 
 
@@ -42,17 +42,11 @@ public class model {
         String S = "skor";
 
         model cryptModel = new model();
-        System.out.println(cryptModel.cryptString(S,B));
         cryptModel.setMessage(B);
         cryptModel.setKey(S);
         cryptModel.cryptString();
         System.out.println(cryptModel.getCrypt());
     }
 
-    private void cryptString() {
-        while (key.length() < message.length()) {
-            key = expandKey(key);
-                }
-            }
 
 }
